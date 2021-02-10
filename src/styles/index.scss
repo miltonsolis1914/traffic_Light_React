@@ -2,6 +2,7 @@
 
 /* 
 
+
     You can write your own styles here...
     
     
@@ -11,3 +12,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: gray;
+}
+#theOne {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+   
+}
+
+#trafficTop{
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 75px;
+}
+#container{
+    background-color: black;
+    width: 65px;
+    height: 178px;
+    margin-left: 48px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.light{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 4px;
+    cursor: pointer;
+    &.red{background-color: #990000;}
+    &.yellow{background-color: #CC6600;}
+    &.green{background-color: #009933;}
+    &.selected{box-shadow: #f8ffcc 0px 0px 50px 20px;}
+
+    
+}
